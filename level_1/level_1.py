@@ -11,5 +11,5 @@ jar = requests.cookies.RequestsCookieJar()
 
 r.cookies['HoldTheDoor']
 
-for i in range(1):
+for i in range(4096):
     r = requests.post(URL, data=payload, cookies=cookies)
